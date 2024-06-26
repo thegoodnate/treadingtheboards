@@ -26,7 +26,7 @@
       </div>
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full filter" src="/images/hero.png" alt="Treading the boards students performing Legally Blonde Jr in 2024" />
+      <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/images/hero.png" alt="Treading the boards students performing Legally Blonde Jr in 2024" />
     </div>
   </div>
 </template>
