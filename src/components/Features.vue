@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div id="features" class="py-12 bg-white">
+  <div id="features" class="pt-12 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <p class="mt-2 text-3xl leading-8 font-extrabold tracking-normal text-gray-900 sm:text-4xl font-serif">
@@ -27,7 +27,7 @@
         </dl>
       </div>
     </div>
-    <img class="w-full" src="/images/show-history.png" alt="Treading the boards previous shows" />
+    <img class="w-full mt-12" src="/images/show-history.png" alt="Treading the boards previous shows" />
   </div>
 </template>
 
