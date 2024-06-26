@@ -27,6 +27,7 @@
         </dl>
       </div>
     </div>
+    <img class="w-full" src="/images/show-history.png" alt="Treading the boards previous shows" />
   </div>
 </template>
 
