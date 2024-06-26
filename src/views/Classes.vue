@@ -32,9 +32,10 @@
       </div>
     </div>
     <p class="text-gray-500 mt-8">
-      <b>*</b> Fees are paid per term
+      <b>*</b> Fees are collected per helf-term
     </p>
   </div>
+  <img class="w-full my-24" src="/images/show-history.png" alt="Treading the boards shows" />
   <CTA/>
   <Testimonials :id="2" />
 </div>
@@ -53,7 +54,7 @@ const pricing = {
       frequency: '/session*',
       description: [
         'Wednesday 4pm - 5pm',
-        'Margaret Alexander Community Centre, Barry',
+        'Margaret Alexander Centre, Barry',
       ],
       features: [
         'Age 4+',
@@ -61,7 +62,8 @@ const pricing = {
         'Creative expression',
         'Social devleopment',
         'Games',
-        'Fun through drama'
+        'Fun through drama',
+        'Summer show',
       ],
       cta: 'Monthly billing',
       mostPopular: false,
