@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+  <div class="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:pt-24">
     <h2 class="text-center lg:text-left text-3xl font-extrabold text-gray-900 sm:text-5xl  lg:text-6xl font-serif tracking-normal">Classes</h2>
     <p class="text-center lg:text-left mt-6 max-w-2xl text-xl text-gray-500">Our current classes are available for children age 4 to 18 years</p>
 
@@ -36,7 +36,7 @@
     </p>
   </div>
   <img class="w-full my-24" src="/images/show-history.png" alt="Treading the boards shows" />
-  <CTA/>
+  <CTA class="mb-8"/>
   <Testimonials :id="2" />
 </div>
 </template>
