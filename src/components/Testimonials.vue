@@ -47,7 +47,7 @@ export default {
             "They have all really helped develop her confidence and skills.",
             "5 ⭐️‘s from us!",
           ],
-          image: "/images/class2.jpg"
+          image: "/images/rehersals-1.png"
         },
         {
           message: [
@@ -62,7 +62,7 @@ export default {
             "It’s fair to say that Xav has loved every minute of the 5 years they have spent with the Treading the boards family.",
             "From the fun of playing games to the Lamda exams they sit, there is always a smile on their face and excitement at what’s ahead.",
           ],
-          image: "/images/madagascar2.jpg"
+          image: "/images/xav.png"
         },
         {
           message: [
@@ -83,7 +83,7 @@ export default {
           message: [
             "We're always met with a happy smile and the support and encouragement they receive in blossoming into the theatrical person they've become will always be deeply appreciated.",
           ],
-          image: "/images/madagascar1.jpg"
+          image: "/images/ioan.png"
         }
       ]
     }
