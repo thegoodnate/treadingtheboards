@@ -55,21 +55,21 @@ export default {
             "She absolutely loves it. The teachers are really friendly & encouraging.",
             "TTB has really boosted her confidence.",
           ],
-          image: "/images/moana1.jpg"
+          image: "/images/test2.png"
         },
         {
           message: [
             "It’s fair to say that Xav has loved every minute of the 5 years they have spent with the Treading the boards family.",
             "From the fun of playing games to the Lamda exams they sit, there is always a smile on their face and excitement at what’s ahead.",
           ],
-          image: "/images/xav.png"
+          image: "/images/test3.png"
         },
         {
           message: [
             "I have seen Emily’s confidence grow so much especially when it comes to speaking in front of people which has been lovely to see.",
             "Jo and the team have been amazing and have put in so much hard work and effort producing dances and routines.",
           ],
-          image: "/images/maui1.jpg"
+          image: "/images/test4.jpg"
         },
         {
           message: [
@@ -77,13 +77,13 @@ export default {
             "I asked her \"what do you like about stage school?\"",
             "and her reply was...\"everything\"!",
           ],
-          image: "/images/dance1.jpg"
+          image: "/images/test5.jpg"
         },
         {
           message: [
             "We're always met with a happy smile and the support and encouragement they receive in blossoming into the theatrical person they've become will always be deeply appreciated.",
           ],
-          image: "/images/ioan.png"
+          image: "/images/test6.png"
         }
       ]
     }
