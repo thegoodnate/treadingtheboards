@@ -47,7 +47,7 @@ export default {
             "They have all really helped develop her confidence and skills.",
             "5 ⭐️‘s from us!",
           ],
-          image: "/images/rehersals-1.png"
+          image: "/images/test1.png"
         },
         {
           message: [

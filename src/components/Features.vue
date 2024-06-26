@@ -27,7 +27,7 @@
         </dl>
       </div>
     </div>
-    <img class="w-full mt-12" src="/images/show-history.png" alt="Treading the boards previous shows" />
+    <img class="w-full my-24" src="/images/show-history.png" alt="Treading the boards shows" />
   </div>
 </template>
 
