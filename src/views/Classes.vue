@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+  <div class="mx-auto pt-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:pt-24">
     <h2 class="text-center lg:text-left text-3xl font-extrabold text-gray-900 sm:text-5xl  lg:text-6xl font-serif tracking-normal">Classes</h2>
     <p class="text-center lg:text-left mt-6 max-w-2xl text-xl text-gray-500">Our current classes are available for children age 4 to 18 years</p>
 
@@ -32,10 +32,11 @@
       </div>
     </div>
     <p class="text-gray-500 mt-8">
-      <b>*</b> Fees are paid per term
+      <b>*</b> Fees are collected per helf-term
     </p>
   </div>
-  <CTA/>
+  <img class="w-full my-24" src="/images/show-history.png" alt="Treading the boards shows" />
+  <CTA class="mb-8"/>
   <Testimonials :id="2" />
 </div>
 </template>
@@ -53,7 +54,7 @@ const pricing = {
       frequency: '/session*',
       description: [
         'Wednesday 4pm - 5pm',
-        'Margaret Alexander Community Centre, Barry',
+        'Margaret Alexander Centre, Barry',
       ],
       features: [
         'Age 4+',
@@ -61,7 +62,8 @@ const pricing = {
         'Creative expression',
         'Social devleopment',
         'Games',
-        'Fun through drama'
+        'Fun through drama',
+        'Summer show',
       ],
       cta: 'Monthly billing',
       mostPopular: false,

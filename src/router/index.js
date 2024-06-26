@@ -2,7 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Team from "../views/Team.vue";
-import Showcase from "../views/Showcase.vue";
+import Events from "../views/Events.vue";
 import Contact from "../views/Contact.vue";
 import Classes from "../views/Classes.vue";
 import Private from "../views/Private.vue";
@@ -35,9 +35,9 @@ const routes = [
     component: Team,
   },
   {
-    path: "/showcase",
-    name: "Showcase",
-    component: Showcase,
+    path: "/events",
+    name: "Events",
+    component: Events,
   },
   {
     path: "/contact",
