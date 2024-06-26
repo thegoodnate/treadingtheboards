@@ -7,7 +7,7 @@
           Acting, Singing, Dancing and more
         </p>
         <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto text-center">
-          <span class="block">Our classes offer a wide range development opportunities in performing arts</span>
+          <span class="block">Our classes offer a wide range of development opportunities in performing arts</span>
         </p>
       </div>
 
