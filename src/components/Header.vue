@@ -36,10 +36,10 @@
             v-bind:class="{ 'border-yellow-300': $route.path == '/private' }">
             Tuition
           </router-link>
-          <!-- <router-link to="/showcase" class="text-base font-medium text-gray-900 hover:text-yellow-400 border-b-4 border-white"
-            v-bind:class="{ 'border-yellow-300': $route.path == '/showcase' }">
-            Showcase
-          </router-link> -->
+          <router-link to="/events" class="text-base font-medium text-gray-900 hover:text-yellow-400 border-b-4 border-white"
+            v-bind:class="{ 'border-yellow-300': $route.path == '/events' }">
+            Events
+          </router-link>
 
         </PopoverGroup>
         <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
@@ -128,12 +128,12 @@ const options = [
   },
   { name: 'Classes', href: '/classes', color: 'text-green-400', icon: CalendarIcon },
   { name: 'Private tuition', href: '/private', color: 'text-pink-500', icon: UserAddIcon },
-  // {
-  //   name: 'Showcase',
-  //   color: 'text-blue-500',
-  //   href: '/showcase',
-  //   icon: PhotographIcon,
-  // },
+  {
+    name: 'Events',
+    color: 'text-blue-500',
+    href: '/events',
+    icon: PhotographIcon,
+  },
   {
     name: 'Contact us',
     color: 'text-yellow-300',

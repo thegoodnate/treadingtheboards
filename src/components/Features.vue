@@ -1,7 +1,10 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div id="features" class="pt-12 bg-white">
+  <div id="features" class="bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="my-24">
+        <Event/>
+      </div>
       <div class="text-center">
         <p class="mt-2 text-3xl leading-8 font-extrabold tracking-normal text-gray-900 sm:text-4xl font-serif">
           Acting, Singing, Dancing and more
@@ -27,12 +30,12 @@
         </dl>
       </div>
     </div>
-    <img class="w-full my-24" src="/images/show-history.png" alt="Treading the boards shows" />
   </div>
 </template>
 
 <script>
 import { AcademicCapIcon, SparklesIcon, MusicNoteIcon, MicrophoneIcon } from '@heroicons/vue/outline'
+import Event from '../components/Event.vue'
 
 const features = [
   {
@@ -62,6 +65,9 @@ const features = [
 ]
 
 export default {
+  components: {
+    Event,
+  },
   setup() {
     return {
       features,
