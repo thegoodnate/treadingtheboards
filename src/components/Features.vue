@@ -1,8 +1,8 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div id="features" class="mt-24 bg-white">
+  <div id="features" class="bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="mb-12">
+      <div class="my-24">
         <Event/>
       </div>
       <div class="text-center">
