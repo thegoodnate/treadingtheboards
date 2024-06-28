@@ -42,7 +42,7 @@
       </div>
     </div>
   </div>
-  <Testimonials :id="1" />
+  <Testimonials :id="0" />
   <CTA/>
 </div>
 </template>
