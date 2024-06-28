@@ -16,6 +16,14 @@
               <h4 class="mr-4 font-semibold text-yellow-300">{{ event.date }}</h4>
               <h4 class="text-gray-500">@{{ event.venue }}</h4>
             </div>
+            <div class="mt-5 flex flex-wrap space-x-2 space-y-2">
+              <span
+                v-for="tag in event.tags" :key="tag"
+                class="bg-gray-500 text-white"
+              >
+                {{ tag }}
+            </span>
+            </div>
             <div class="mt-8">
               <p
                 v-for="description in event.description" :key="description"
