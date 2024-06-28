@@ -19,7 +19,7 @@
             <div class="mt-5 text-small flex flex-wrap space-x-2">
               <span
                 v-for="tag in event.tags" :key="tag"
-                class="p-1 rounded bg-gray-500 text-white"
+                class="p-1 rounded bg-gray-300 text-black"
               >
                 {{ tag }}
             </span>
