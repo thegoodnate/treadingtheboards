@@ -9,9 +9,9 @@
           <img class="h-full md:h-96" :src="event.image"/>
           <div class="mt-5 md:mt-0">
             <h3 class="text-3xl font-semibold text-gray-900 font-serif tracking-normal">{{ event.title }}</h3>
-            <div class="mt-4 flex flex-wrap items-centeritems-center text-xl font-semibold font-serif tracking-normal">
-              <h4 class="mr-4 text-yellow-300">{{ event.date }}</h4>
-              <h4 class="text-gray-500">- {{ event.venue }}</h4>
+            <div class="mt-4 flex flex-wrap items-centeritems-center text-xl font-serif tracking-normal">
+              <h4 class="mr-4 font-semibold text-yellow-300">{{ event.date }}</h4>
+              <h4 class="text-gray-500">@{{ event.venue }}</h4>
             </div>
             <p
               v-for="description in event.description" :key="description"
