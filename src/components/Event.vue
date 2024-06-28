@@ -3,8 +3,8 @@
   <div v-if="event.upcoming" class="absolute font-serif tracking-normal font-semibold top-0 right-0 bg-yellow-300 text-black px-4 py-2 rounded-bl-lg rounded-tr-lg">
     Upcoming Event
   </div>
-  <div class="grid grid-cols-1 lg:grid-cols-2">
-    <img class="md:h-96" :src="event.image"/>
+  <div class="flex flex-wrap">
+    <img class="md:h-96 mb-5 md:mb-0 mr-0 md:mr-10" :src="event.image"/>
     <div class="mt-5 md:mt-0">
       <h3 class="text-3xl font-semibold text-gray-900 font-serif tracking-normal">{{ event.title }}</h3>
       <div class="mt-4 flex flex-wrap items-centeritems-center text-xl font-serif tracking-normal">
