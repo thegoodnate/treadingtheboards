@@ -10,8 +10,7 @@
           <div class="mt-5 md:mt-0">
             <h3 class="text-3xl font-semibold text-gray-900 font-serif tracking-normal">{{ event.title }}</h3>
             <h4 class="mt-4 text-xl font-semibold text-yellow-300 font-serif tracking-normal">{{ event.date }}</h4>
-            <p class="mt-4 flex items-baseline text-gray-900">
-            </p>
+            <p class="mt-4 flex items-baseline text-gray-500">{{ event.venue }}</p>
             <p
               v-for="description in event.description" :key="description"
               class="mt-2 text-gray-500"
