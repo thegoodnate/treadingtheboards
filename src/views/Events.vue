@@ -16,21 +16,21 @@
               <h4 class="mr-4 font-semibold text-yellow-300">{{ event.date }}</h4>
               <h4 class="text-gray-500">@{{ event.venue }}</h4>
             </div>
-            <div class="mt-12 text-xs flex flex-wrap space-x-2">
-              <span
-                v-for="tag in event.tags" :key="tag"
-                class="p-1 rounded bg-gray-300 text-black"
-              >
-                {{ tag }}
-            </span>
-            </div>
-            <div class="mt-5">
+            <div class="mt-8">
               <p
                 v-for="description in event.description" :key="description"
                 class="mt-2 text-gray-500"
               >
                 {{ description }}
               </p>
+            </div>
+            <div class="mt-5 text-xs flex flex-wrap space-x-2">
+              <span
+                v-for="tag in event.tags" :key="tag"
+                class="p-1 rounded bg-gray-300 text-black"
+              >
+                {{ tag }}
+            </span>
             </div>
           </div>
         </div>
@@ -79,6 +79,19 @@ const events = [
     venue: 'Memo Arts Centre',
     image: '/images/aristocats-kids.png',
     tags: [
+      'Tip-Toes',
+    ],
+    description: [
+    ],
+  },
+  {
+    title: 'Madagascar Jr.',
+    date: 'June 2023',
+    venue: 'The Paget Rooms',
+    image: '/images/madagascar-jr.png',
+    tags: [
+      'Titans',
+      'Troubadours',
       'Tip-Toes',
     ],
     description: [
