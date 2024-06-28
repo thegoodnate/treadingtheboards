@@ -16,7 +16,7 @@
               <h4 class="mr-4 font-semibold text-yellow-300">{{ event.date }}</h4>
               <h4 class="text-gray-500">@{{ event.venue }}</h4>
             </div>
-            <div class="mt-5 text-small flex flex-wrap space-x-2">
+            <div class="mt-5 text-xs flex flex-wrap space-x-2">
               <span
                 v-for="tag in event.tags" :key="tag"
                 class="p-1 rounded bg-gray-300 text-black"
