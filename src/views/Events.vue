@@ -5,6 +5,9 @@
 
   <div class="mt-12 space-y-12 lg:space-y-0 grid grid-cols-1 gap-5 lg:gap-x-8">
       <div v-for="event in events" :key="event.title" class="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
+        <div v-if="event.upcoming" class="absolute font-serif tracking-normal font-semibold top-0 right-0 bg-yellow-300 text-white px-4 py-2 rounded-bl-lg rounded-tr-lg">
+          Upcoming
+        </div>
         <div class="grid grid-cols-1 lg:grid-cols-2">
           <img class="h-full md:h-96" :src="event.image"/>
           <div class="mt-5 md:mt-0">
@@ -35,7 +38,7 @@ const events = [
   {
     title: 'Beauty and the Beast Jr.',
     date: 'June 2025',
-    venue: 'Venue TBC',
+    venue: 'TBC',
     image: '/images/beauty-and-the-beast-jr.png',
     tags: [
       'Titans',
@@ -45,6 +48,7 @@ const events = [
       'Wednesday 4pm - 5pm',
       'Margaret Alexander Centre, Barry',
     ],
+    upcoming: true
   },
   {
     title: 'Legally Blonde Jr.',
