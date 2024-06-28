@@ -52,7 +52,7 @@ const events = [
     image: '/images/beauty-and-the-beast-jr.png',
     tags: [
       'Titans',
-      'Troubadors'
+      'Troubadours'
     ],
     description: [
       'We\'re excited to announce our summer 2025 production of Beauty and the Beast Jr.!',
@@ -68,7 +68,7 @@ const events = [
     image: '/images/legally-blonde-jr.png',
     tags: [
       'Titans',
-      'Troubadors'
+      'Troubadours'
     ],
     description: [
     ],
@@ -79,6 +79,19 @@ const events = [
     venue: 'Memo Arts Centre',
     image: '/images/aristocats-kids.png',
     tags: [
+      'Tip-Toes',
+    ],
+    description: [
+    ],
+  },
+  {
+    title: 'Moana Jr.',
+    date: 'June 2022',
+    venue: 'The Paget Rooms',
+    image: '/images/moana-jr.png',
+    tags: [
+      'Titans',
+      'Troubadours',
       'Tip-Toes',
     ],
     description: [
