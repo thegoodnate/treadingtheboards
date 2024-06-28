@@ -5,17 +5,19 @@
 
   <div class="mt-12 space-y-12 lg:space-y-0 grid grid-cols-1 gap-5 lg:gap-x-8">
       <div v-for="event in events" :key="event.title" class="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
-        <div class="flex-1">
-          <img class="h-48 w-full object-cover lg:h-full lg:w-full" :src="event.image"/>
-          <h3 class="text-xl font-semibold text-gray-900 font-serif tracking-normal">{{ event.title }}</h3>
-          <p class="mt-4 flex items-baseline text-gray-900">
-          </p>
-          <p
-            v-for="description in event.description" :key="description"
-            class="mt-2 text-gray-500"
-          >
-            {{ description }}
-          </p>
+        <div class="grid grid-cols-1 xl:grid-cols-2">
+          <img class="h-36" :src="event.image"/>
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900 font-serif tracking-normal">{{ event.title }}</h3>
+            <p class="mt-4 flex items-baseline text-gray-900">
+            </p>
+            <p
+              v-for="description in event.description" :key="description"
+              class="mt-2 text-gray-500"
+            >
+              {{ description }}
+            </p>
+          </div>
         </div>
       </div>
     </div>
