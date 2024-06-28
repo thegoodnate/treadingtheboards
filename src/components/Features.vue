@@ -27,9 +27,6 @@
         </dl>
       </div>
     </div>
-    <router-link to="/events">
-      <img class="w-full my-24" src="/images/show-history.png" alt="Treading the boards shows" />
-    </router-link>
   </div>
 </template>
 

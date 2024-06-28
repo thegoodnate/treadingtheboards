@@ -1,5 +1,10 @@
 <template>
   <div class="mt-12 mb-24 lg:mt-16 lg:mb-16 mx-auto max-w-7xl px-4 sm:mt-24">
+    <div class="mb-8">
+      <router-link to="/events">
+        <img class="w-full my-24" src="/images/show-history.png" alt="Treading the boards shows" />
+      </router-link>
+    </div>
     <div class="text-center">
       <h1 class="text-4xl font-serif tracking-normal font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
         <span class="block xl:inline">Ready to join the fun?</span>
