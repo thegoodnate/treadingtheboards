@@ -8,7 +8,7 @@
         <div v-if="event.upcoming" class="absolute font-serif tracking-normal font-semibold top-0 right-0 bg-yellow-300 text-black px-4 py-2 rounded-bl-lg rounded-tr-lg">
           Upcoming Event
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="flex flex-wrap space-x-10">
           <img class="md:h-96" :src="event.image"/>
           <div class="mt-5 md:mt-0">
             <h3 class="text-3xl font-semibold text-gray-900 font-serif tracking-normal">{{ event.title }}</h3>
