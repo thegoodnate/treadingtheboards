@@ -16,7 +16,7 @@
               <h4 class="mr-4 font-semibold text-yellow-300">{{ event.date }}</h4>
               <h4 class="text-gray-500">@{{ event.venue }}</h4>
             </div>
-            <div class="mt-5 text-xs flex flex-wrap space-x-2">
+            <div class="mt-12 text-xs flex flex-wrap space-x-2">
               <span
                 v-for="tag in event.tags" :key="tag"
                 class="p-1 rounded bg-gray-300 text-black"
@@ -24,7 +24,7 @@
                 {{ tag }}
             </span>
             </div>
-            <div class="mt-8">
+            <div class="mt-5">
               <p
                 v-for="description in event.description" :key="description"
                 class="mt-2 text-gray-500"
@@ -71,8 +71,6 @@ const events = [
       'Troubadors'
     ],
     description: [
-      'Tuesday 4pm - 5:30pm',
-      'St Francis Millennium Centre, Barry',
     ],
   },
   {
@@ -84,8 +82,6 @@ const events = [
       'Tip-Toes',
     ],
     description: [
-      'Tuesday 4pm - 5:30pm',
-      'St Francis Millennium Centre, Barry',
     ],
   },
 ]
