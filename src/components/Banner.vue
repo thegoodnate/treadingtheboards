@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="my-12">
+  <div class="my-12 xl:mt-24">
     <router-link to="/events">
       <img class="w-full" src="/images/show-history.png" alt="Treading the boards shows" />
     </router-link>

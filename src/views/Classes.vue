@@ -35,9 +35,9 @@
       <b>*</b> Fees are collected per helf-term
     </p>
   </div>
-  <img class="w-full my-24" src="/images/show-history.png" alt="Treading the boards shows" />
-  <CTA class="mb-8"/>
+  <Banner/>
   <Testimonials :id="2" />
+  <CTA />
 </div>
 </template>
 
@@ -45,6 +45,7 @@
 import { CheckIcon } from '@heroicons/vue/outline'
 import Testimonials from '../components/Testimonials.vue'
 import CTA from '../components/CTA.vue'
+import Banner from '../components/Banner.vue'
 
 const pricing = {
   tiers: [
@@ -116,6 +117,7 @@ export default {
     CheckIcon,
     Testimonials,
     CTA,
+    Banner,
   },
   setup() {
     return {
