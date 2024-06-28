@@ -19,7 +19,7 @@
             <div class="mt-8">
               <p
                 v-for="description in event.description" :key="description"
-                class="mt-1 text-gray-500"
+                class="mt-2 text-gray-500"
               >
                 {{ description }}
               </p>
@@ -47,9 +47,9 @@ const events = [
       'Troubadors'
     ],
     description: [
-      'We\' excited to announce our summer 2025 production of Beauty and the Beast Jr!',
-      'Conact us for more information on joining this amazing show and becoming part of the TTB family!',
-      'Rehersals and auditions staring this September!'
+      'We\'re excited to announce our summer 2025 production of Beauty and the Beast Jr.!',
+      'Conact us for more information on joining this amazing show and becoming part of the TTB family.',
+      'Rehersals and auditions staring this September.'
     ],
     upcoming: true
   },
