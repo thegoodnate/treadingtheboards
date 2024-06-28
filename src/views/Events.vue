@@ -30,12 +30,13 @@
                 class="p-1 rounded bg-gray-300 text-black"
               >
                 {{ tag }}
-            </span>
+              </span>
 
-            <div v-if="event.upcoming" class="mt-8">
-              <router-link to="/contact" class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
-                Contact us
-              </router-link>
+              <div v-if="event.upcoming" class="mt-8">
+                <router-link to="/contact" class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+                  Contact for Audition and rehersal info
+                </router-link>
+              </div>
             </div>
           </div>
         </div>
@@ -62,7 +63,7 @@ const events = [
     description: [
       'We\'re excited to announce our summer 2025 production of Beauty and the Beast Jr.!',
       'Conact us for more information on joining this amazing show and becoming part of the TTB family.',
-      'Rehersals and auditions staring this September.'
+      'Auditions and rehersals staring this September.'
     ],
     upcoming: true
   },
