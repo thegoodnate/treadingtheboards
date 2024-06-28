@@ -5,8 +5,8 @@
 
   <div class="mt-12 space-y-12 lg:space-y-0 grid grid-cols-1 gap-5 lg:gap-x-8">
       <div v-for="event in events" :key="event.title" class="relative p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
-        <div class="grid grid-cols-1 xl:grid-cols-2">
-          <img class="" style="height:30rem;" :src="event.image"/>
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <img class="h-full md:h-96" :src="event.image"/>
           <div>
             <h3 class="text-3xl font-semibold text-gray-900 font-serif tracking-normal">{{ event.title }}</h3>
             <h4 class="mt-4 text-xl font-semibold text-yellow-300 font-serif tracking-normal">{{ event.date }}</h4>
@@ -33,7 +33,7 @@ import Testimonials from '../components/Testimonials.vue'
 const events = [
   {
     title: 'Beauty and the Beast Jr.',
-    date: 'Coming June 2025!',
+    date: 'June 2025',
     venue: 'TBC',
     image: '/images/beauty-and-the-beast-jr.png',
     tags: [
