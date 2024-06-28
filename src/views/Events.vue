@@ -42,12 +42,14 @@
       </div>
     </div>
   </div>
-  <Testimonials :id="2" />
+  <Testimonials :id="1" />
+  <CTA/>
 </div>
 </template>
 
 <script>
 import Testimonials from '../components/Testimonials.vue'
+import CTA from '../components/CTA.vue'
 
 const events = [
   {
@@ -120,6 +122,7 @@ const events = [
 export default {
   components: {
     Testimonials,
+    CTA,
   },
   setup() {
     return {
