@@ -30,21 +30,37 @@ import Testimonials from '../components/Testimonials.vue'
 
 const events = [
   {
-    title: 'Tip-Toe treaders',
+    title: 'Beauty and the Beast Jr.',
+    date: 'Coming June 2025!',
+    venue: 'TBC',
+    tags: [
+      'Titans',
+      'Troubadors'
+    ],
     description: [
       'Wednesday 4pm - 5pm',
       'Margaret Alexander Centre, Barry',
     ],
   },
   {
-    title: 'Troubadours',
+    title: 'Legally Blonde Jr.',
+    date: 'June 2024',
+    venue: 'St Cyres School',
+    tags: [
+      'Titans',
+      'Troubadors'
+    ],
     description: [
       'Tuesday 4pm - 5:30pm',
       'St Francis Millennium Centre, Barry',
     ],
   },
   {
-    title: 'Titans',
+    title: 'Aristocats Kids',
+    venue: 'Memo Arts Centre',
+    tags: [
+      'Tip-Toes',
+    ],
     description: [
       'Tuesday 4pm - 5:30pm',
       'St Francis Millennium Centre, Barry',
