@@ -33,9 +33,9 @@
               </span>
             </div>
             <div v-if="event.upcoming" class="mt-8">
-              <router-link to="/contact" class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
-                Contact for more info
-              </router-link>
+              <a thref="/beauty_and_the_beast/Audition_Pack.pdf" class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+                Download Audition Pack
+              </a>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ const events = [
   {
     title: 'Beauty and the Beast Jr.',
     date: '15th June 2025',
-    venue: 'Wales Millenium Centre',
+    venue: 'Wales Millenium Centre\'s Dance House',
     image: '/images/beauty-and-the-beast-jr.png',
     tags: [
       'Titans',
