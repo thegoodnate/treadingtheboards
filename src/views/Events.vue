@@ -55,7 +55,7 @@ const events = [
   {
     title: 'Beauty and the Beast Jr.',
     date: '15th June 2025',
-    venue: 'Wales Millenium Centre\'s Dance House',
+    venue: 'TBC',
     image: '/images/beauty-and-the-beast-jr.png',
     tags: [
       'Titans',
