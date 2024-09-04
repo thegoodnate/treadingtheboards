@@ -59,7 +59,7 @@ const events = [
     description: [
       'We\'re excited to announce our summer 2025 production of Beauty and the Beast Jr.!',
       'Conact us for more information on joining this amazing show and becoming part of the TTB family.',
-      'Auditions and rehersals starting this September.'
+      'Rehersals starting September 2024.'
     ],
     upcoming: true
   },
