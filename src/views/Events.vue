@@ -47,6 +47,17 @@ import Testimonials from '../components/Testimonials.vue'
 import CTA from '../components/CTA.vue'
 
 const events = [
+{
+    title: 'The Wedding Singer',
+    date: '11th - 12th July 2025',
+    venue: 'The Paget Rooms',
+    image: '/images/wedding-singer.png',
+    tags: [
+      'Adults'
+    ],
+    description: [],
+    upcoming: true
+  },
   {
     title: 'Beauty and the Beast Jr.',
     date: '15th June 2025',
@@ -61,6 +72,17 @@ const events = [
       'Conact us for more information on joining this amazing show and becoming part of the TTB family.',
       'Rehersals starting September 2024.'
     ],
+    upcoming: true
+  },
+  {
+    title: 'The Bee Musical',
+    date: '22nd March 2025',
+    venue: 'Memo Arts Ventre',
+    image: '/images/bee-musical.png',
+    tags: [
+      'Tip-Toes'
+    ],
+    description: [],
     upcoming: true
   },
   {
