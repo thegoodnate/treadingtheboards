@@ -12,19 +12,19 @@
         <p class="md:mb-0 text-2xl leading-8 font-extrabold tracking-normal text-yellow-300 sm:text-3xl font-serif">
           March
         </p>
-        <img class="md:h-96 mt-5 mb-5 md:mb-0" src="/images/bee-musical.png"/>
+        <img class="md:h-96 mt-5 mb-12 md:mb-0" src="/images/bee-musical.png"/>
       </div>
       <div class="flex flex-col text-center">
         <p class="md:mb-0 text-2xl leading-8 font-extrabold tracking-normal text-yellow-300 sm:text-3xl font-serif">
           June
         </p>
-        <img class="md:h-96 mt-5 mb-5 md:mb-0" src="/images/beauty-and-the-beast-jr.png"/>
+        <img class="md:h-96 mt-5 mb-12 md:mb-0" src="/images/beauty-and-the-beast-jr.png"/>
       </div>
       <div class="flex flex-col text-center">
         <p class="text-2xl leading-8 font-extrabold tracking-normal text-yellow-300 sm:text-3xl font-serif ">
           July
         </p>
-        <img class="md:h-96 mt-5 mb-5 md:mb-0" src="/images/wedding-singer.png"/>
+        <img class="md:h-96 mt-5 mb-0" src="/images/wedding-singer.png"/>
       </div>
     </div>
   </div>
