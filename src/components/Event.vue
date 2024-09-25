@@ -1,7 +1,7 @@
 <template>
 <div class="p-8">
   <div class="text-center mb-5">
-    <p class="mt-2 mb-5 text-5xl leading-8 font-extrabold tracking-normal text-gray-900 sm:text-4xl font-serif">
+    <p class="mt-2 mb-12 text-5xl leading-8 font-extrabold tracking-normal text-gray-900 sm:text-4xl font-serif">
       2025 Events
     </p>
   </div>
