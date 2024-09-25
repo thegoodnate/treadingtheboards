@@ -55,12 +55,20 @@ const events = [
     tags: [
       'Adults'
     ],
-    description: [],
+    description: [
+      'We\'re proud to anounce the 2nd ever production for our adult theare company!',
+      '',
+      'The Wedding Singer takes us back to a time when hair was big, greed was good, collars were up and a wedding singer might just be the coolest guy in the room.',
+      'Based on the hit Adam Sandler movie, The Wedding Singer\'s sparkling new score does for the \'80s what Hairspray did for the \'60s.',
+      'Just say yes to the most romantic musical in twenty years.',
+      '',
+      'Auditions starting January 2025.'
+    ],
     upcoming: true
   },
   {
     title: 'Beauty and the Beast Jr.',
-    date: '15th June 2025',
+    date: 'June 2025',
     venue: 'TBC',
     image: '/images/beauty-and-the-beast-jr.png',
     tags: [
@@ -69,20 +77,28 @@ const events = [
     ],
     description: [
       'We\'re excited to announce our summer 2025 production of Beauty and the Beast Jr.!',
-      'Conact us for more information on joining this amazing show and becoming part of the TTB family.',
-      'Rehersals starting September 2024.'
+      'This is a fantastic opportunity for our Titans and Troubadours to take part in a classic tale of love and acceptance.',
+      '',
+      'Contact us for more information on joining this amazing show and becoming part of the TTB family.',
+      'Rehersals starting November 2024.'
     ],
     upcoming: true
   },
   {
     title: 'The Bee Musical',
     date: '22nd March 2025',
-    venue: 'Memo Arts Ventre',
+    venue: 'Memo Arts Centre',
     image: '/images/bee-musical.png',
     tags: [
       'Tip-Toes'
     ],
-    description: [],
+    description: [
+      'We are simply buzzing to introduce to you this delightful and educational musical for out Tip-Toe Treaders.',
+      'Mr Waxworth and his busy team are eager to do their part in the world, except for one bee – Grumble Bee!',
+      'However, as the colonies begin to collapse, Grumble Bee begins to understand and appreciate her value and what she can bring to keep the bees buzzing brightly!',
+      '',
+      'Rehersals starting SOON!'
+    ],
     upcoming: true
   },
   {
