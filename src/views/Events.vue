@@ -10,7 +10,7 @@
         </div>
         <div class="flex flex-wrap">
           <img class="md:h-96 mb-5 md:mb-0 mr-0 md:mr-10" :src="event.image"/>
-          <div class="mt-5 md:mt-0">
+          <div class="mt-5 md:mt-0 max-w-2xl">
             <h3 class="text-3xl font-semibold text-gray-900 font-serif tracking-normal">{{ event.title }}</h3>
             <div class="mt-4 flex flex-wrap items-centeritems-center text-xl font-serif tracking-normal">
               <h4 class="mr-4 font-semibold text-yellow-300">{{ event.date }}</h4>
