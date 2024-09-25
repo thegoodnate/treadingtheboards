@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="text-center">
+  <div class="text-center mb-5">
     <p class="mt-2 text-3xl leading-8 font-extrabold tracking-normal text-gray-900 sm:text-4xl font-serif">
       Upcoming Events
     </p>
