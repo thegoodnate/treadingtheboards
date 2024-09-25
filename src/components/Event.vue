@@ -2,7 +2,7 @@
 <div>
   <div class="text-center mb-5">
     <p class="mt-2 text-3xl leading-8 font-extrabold tracking-normal text-gray-900 sm:text-4xl font-serif">
-      Upcoming Events
+      2025 Events
     </p>
   </div>
 
@@ -10,20 +10,20 @@
     <div class="flex flex-wrap justify-between">
       <div class="flex flex-col text-center">
         <img class="md:h-96 mb-2 md:mb-0 mr-0" src="/images/bee-musical.png"/>
-        <p class="mb-5 text-2xl leading-8 font-extrabold tracking-normal text-yellow-300 sm:text-3xl font-serif">
-          March 2025
+        <p class="mb-5 md:mb-0 text-2xl leading-8 font-extrabold tracking-normal text-yellow-300 sm:text-3xl font-serif">
+          March
         </p>
       </div>
       <div class="flex flex-col text-center">
         <img class="md:h-96 mb-2 md:mb-0 mr-0" src="/images/beauty-and-the-beast-jr.png"/>
-        <p class="mb-5 text-2xl leading-8 font-extrabold tracking-normal text-yellow-300 sm:text-3xl font-serif">
-          June 2025
+        <p class="mb-5 md:mb-0 text-2xl leading-8 font-extrabold tracking-normal text-yellow-300 sm:text-3xl font-serif">
+          June
         </p>
       </div>
       <div class="flex flex-col text-center">
         <img class="md:h-96 mb-2 md:mb-0 mr-0" src="/images/wedding-singer.png"/>
-        <p class="mb-5 text-2xl leading-8 font-extrabold tracking-normal text-yellow-300 sm:text-3xl font-serif ">
-          July 2025
+        <p class="text-2xl leading-8 font-extrabold tracking-normal text-yellow-300 sm:text-3xl font-serif ">
+          July
         </p>
       </div>
     </div>
