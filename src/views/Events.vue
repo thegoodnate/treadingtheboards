@@ -56,7 +56,7 @@ const events = [
       'Adults'
     ],
     description: [
-      'We\'re proud to anounce the second adult theatre company production!',
+      'After the roaring success of "Nunsense", our adult theatre companies debut, we\'re proud to anounce our second production!',
       '',
       'The Wedding Singer takes us back to a time when hair was big, greed was good, collars were up and a wedding singer might just be the coolest guy in the room.',
       'Based on the hit Adam Sandler movie, The Wedding Singer\'s sparkling new score does for the \'80s what Hairspray did for the \'60s.',
