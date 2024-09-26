@@ -9,7 +9,7 @@
           Upcoming Event
         </div>
         <div class="flex flex-wrap">
-          <img class="md:h-96 mb-5 md:mb-0 mr-0 md:mr-10" :src="event.image"/>
+          <img class="md:h-96 mb-5 md:mb-0 mr-0 md:mr-10 shadow-sm" :src="event.image"/>
           <div class="mt-5 md:mt-0 max-w-2xl">
             <h3 class="text-3xl font-semibold text-gray-900 font-serif tracking-normal">{{ event.title }}</h3>
             <div class="mt-4 flex flex-wrap items-centeritems-center text-xl font-serif tracking-normal">
@@ -47,7 +47,7 @@ import Testimonials from '../components/Testimonials.vue'
 import CTA from '../components/CTA.vue'
 
 const events = [
-{
+  {
     title: 'The Wedding Singer',
     date: '11th - 12th July 2025',
     venue: 'The Paget Rooms',
@@ -98,6 +98,23 @@ const events = [
       'However, as the colonies begin to collapse, Grumble Bee begins to understand and appreciate her value and what she can bring to keep the bees buzzing brightly!',
     ],
     upcoming: true
+  },
+  {
+    title: 'Nunsense: The Mega Musical',
+    date: '26th July 2024',
+    venue: 'Bridgend Town Hall',
+    image: '/images/nunsense.png',
+    tags: [
+      'Adults'
+    ],
+    description: [
+      'We\'re very proud to anouce the debut of our new adult theatre company will be "Nunsense: The Mega Musical"!',
+      '',
+      'Nunsense follows the crazy antics of five nuns from the Little Sisters of Hoboken convent.',
+      'When their cook accidentally serves up some tainted soup, 52 of the sisters are poisoned and die, leaving only five living nuns who were not at home the day of the toxic meal.',
+      'When the convent’s first in charge, Reverend Mother Regina, splurges on a Playstation 5, the sisters find themselves strapped for cash, as they still have four dead nuns to bury (whose bodies are being stored in the kitchen freezer!) The nuns decide to put on a benefit performance of the musical “Grease” in order to raise the rest of the money before the health department discovers their secret.'
+    ],
+    upcoming: false
   },
   {
     title: 'Legally Blonde Jr.',
