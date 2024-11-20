@@ -29,6 +29,12 @@
       <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/images/xmas_cracker.png" alt="Treading the boards cristmas cracker" />
     </div>
   </div>
+  <div class="text-center mb-5">
+    <a href="https://www.ticketsource.co.uk/treading-the-boards-theatre-company/t-jzdaxod" target="_blank"
+      class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+      Book Tickets
+    </a>
+  </div>
 </template>
 
 <script>
