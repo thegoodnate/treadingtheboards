@@ -19,7 +19,7 @@
               Welcome to Treading the Boards!
             </p>
             <p class="mt-3 text-base text-gray-500 mt-5 sm:text-lg max-w-xl mx-auto md:text-xl lg:mx-0">
-              We are a performing arts school for children of all ages based in the Vale of Glamorgan
+              We are a performing arts school and theatre company based in the Vale of Glamorgan
             </p>
           </div>
         </main>
