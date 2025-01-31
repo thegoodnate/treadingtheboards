@@ -23,15 +23,6 @@
               >
                 {{ description }}
               </p>
-              <div class="mt-2">
-                <a
-                  v-if="event.upcoming && event.url"
-                  :href="event.url" target="_blank"
-                  class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-                >
-                  Book tickets
-                </a>
-              </div>
             </div>
             <div class="mt-5 text-xs flex flex-wrap space-x-2">
               <span
@@ -40,6 +31,15 @@
               >
                 {{ tag }}
               </span>
+            </div>
+            <div class="mt-5">
+              <a
+                v-if="event.upcoming && event.url"
+                :href="event.url" target="_blank"
+                class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+              >
+                Book tickets
+              </a>
             </div>
           </div>
         </div>
