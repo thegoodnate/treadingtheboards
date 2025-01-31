@@ -23,6 +23,15 @@
               >
                 {{ description }}
               </p>
+              <div class="mt-2">
+                <a
+                  v-if="event.upcoming && event.url"
+                  :href="event.url" target="_blank"
+                  class="whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                >
+                  Book tickets
+                </a>
+              </div>
             </div>
             <div class="mt-5 text-xs flex flex-wrap space-x-2">
               <span
@@ -62,7 +71,8 @@ const events = [
       'Based on the hit Adam Sandler movie, The Wedding Singer\'s sparkling new score does for the \'80s what Hairspray did for the \'60s.',
       'Just say yes to the most romantic musical in twenty years.',
     ],
-    upcoming: true
+    upcoming: true,
+    url: 'https://www.ticketsource.co.uk/treading-the-boards/the-wedding-singer/e-kojbld'
   },
   {
     title: 'Beauty and the Beast Jr.',
@@ -79,7 +89,8 @@ const events = [
       '',
       'Contact us for more information on joining this amazing show and becoming part of the TTB family.',
     ],
-    upcoming: true
+    upcoming: true,
+    url: 'https://www.ticketsource.co.uk/treading-the-boards/beauty-and-the-beast-jr/e-pqbzgq'
   },
   {
     title: 'The Bee Musical',
@@ -94,7 +105,8 @@ const events = [
       'Mr Waxworth and his busy team are eager to do their part in the world, except for one bee – Grumble Bee!',
       'However, as the colonies begin to collapse, Grumble Bee begins to understand and appreciate her value and what she can bring to keep the bees buzzing brightly!',
     ],
-    upcoming: true
+    upcoming: true,
+    url: 'https://www.ticketsource.co.uk/treading-the-boards/the-bee-musical/e-vkzomj',
   },
   {
     title: 'Nunsense: The Mega Musical',
@@ -111,7 +123,7 @@ const events = [
       'When their cook accidentally serves up some tainted soup, 52 of the sisters are poisoned and die, leaving only five living nuns who were not at home the day of the toxic meal.',
       'When the convent’s first in charge, Reverend Mother Regina, splurges on a Playstation 5, the sisters find themselves strapped for cash, as they still have four dead nuns to bury (whose bodies are being stored in the kitchen freezer!) The nuns decide to put on a benefit performance of the musical “Grease” in order to raise the rest of the money before the health department discovers their secret.'
     ],
-    upcoming: false
+    upcoming: false,
   },
   {
     title: 'Legally Blonde Jr.',
