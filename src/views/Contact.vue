@@ -6,7 +6,7 @@
         <h2 class="text-center lg:text-left text-3xl font-extrabold text-gray-900 sm:text-5xl mb-8 lg:text-6xl font-serif tracking-normal">Contact us</h2>
 
 
-        <div class="grid grid-cols-1 lg:grid-cols-3 shadow-xl">
+        <div class="grid grid-cols-1 shadow-xl">
           <!-- Contact information -->
           <div class="relative overflow-hidden py-10 px-6 bg-indigo-700 sm:px-10 xl:p-12">
             <div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
@@ -77,7 +77,7 @@
           </div>
 
           <!-- Contact form -->
-          <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+          <!-- <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
             <h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
             <form action="https://fabform.io/f/KopHggl" method="post" name="contact" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
               <div>
@@ -136,7 +136,7 @@
                 </button>
               </div>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
