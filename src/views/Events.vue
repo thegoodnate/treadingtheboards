@@ -61,15 +61,13 @@ const events = [
       'The Wedding Singer takes us back to a time when hair was big, greed was good, collars were up and a wedding singer might just be the coolest guy in the room.',
       'Based on the hit Adam Sandler movie, The Wedding Singer\'s sparkling new score does for the \'80s what Hairspray did for the \'60s.',
       'Just say yes to the most romantic musical in twenty years.',
-      '',
-      'Auditions and rehersals starting early 2025.'
     ],
     upcoming: true
   },
   {
     title: 'Beauty and the Beast Jr.',
-    date: 'June 2025',
-    venue: 'TBC',
+    date: '8th June 2025',
+    venue: 'The Paget Rooms',
     image: '/images/beauty-and-the-beast-jr.png',
     tags: [
       'Titans',
@@ -80,14 +78,13 @@ const events = [
       'This is a fantastic opportunity for our Titans and Troubadours to take part in a classic tale of love and acceptance.',
       '',
       'Contact us for more information on joining this amazing show and becoming part of the TTB family.',
-      'Join our rehersals from November 2024.'
     ],
     upcoming: true
   },
   {
     title: 'The Bee Musical',
-    date: '22nd March 2025',
-    venue: 'Memo Arts Centre',
+    date: '18th May 2025',
+    venue: 'St Cyres School',
     image: '/images/bee-musical.png',
     tags: [
       'Tip-Toes'

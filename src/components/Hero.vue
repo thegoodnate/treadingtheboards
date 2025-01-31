@@ -26,7 +26,7 @@
       </div>
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/images/xmas_cracker.png" alt="Treading the boards cristmas cracker" />
+      <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/images/hero.png" />
     </div>
   </div>
   <div class="text-center mt-8">

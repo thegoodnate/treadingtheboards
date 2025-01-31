@@ -10,7 +10,7 @@
     <div class="flex flex-wrap justify-between">
       <div class="flex flex-col text-center">
         <p class="md:mb-0 text-2xl leading-8 font-extrabold tracking-normal text-yellow-300 sm:text-3xl font-serif">
-          March
+          May
         </p>
         <img class="md:h-96 mt-5 mb-12 md:mb-0" src="/images/bee-musical.png"/>
       </div>
