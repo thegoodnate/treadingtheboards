@@ -61,7 +61,7 @@ const pricing = {
         'Age 4+',
         'Confidence building',
         'Creative expression',
-        'Social devleopment',
+        'Social development',
         'Games',
         'Fun through drama',
         'Summer show',
