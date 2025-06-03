@@ -105,8 +105,7 @@ const events = [
       'Mr Waxworth and his busy team are eager to do their part in the world, except for one bee – Grumble Bee!',
       'However, as the colonies begin to collapse, Grumble Bee begins to understand and appreciate her value and what she can bring to keep the bees buzzing brightly!',
     ],
-    upcoming: true,
-    url: 'https://www.ticketsource.co.uk/treading-the-boards/the-bee-musical/e-vkzomj',
+    upcoming: false,
   },
   {
     title: 'Nunsense: The Mega Musical',
