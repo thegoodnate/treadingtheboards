@@ -161,6 +161,11 @@ const events = [
       'Tip-Toes',
     ],
     description: [
+      'Join Alex the Lion, Marty the Zebra, Melman the Giraffe, Gloria the hip hip Hippo and, of course, those hilarious,',
+      ' plotting penguins as they bound onto your stage in the musical adventure of a lifetime.',
+      'Based on the smash DreamWorks animated motion picture, Madagascar - A Musical Adventure JR. follows all of your favorite crack-a-lackin\' friends as they escape from their home in New York\'s Central Park Zoo and find themselves on an unexpected journey to the madcap world of King Julien\'s Madagascar.',
+      '',
+      'Filled with outlandish characters, adventure galore and an upbeat score, Madagascar JR. will leave you with no choice but to “Move It, Move It!”'
     ],
   },
   {
@@ -174,6 +179,11 @@ const events = [
       'Tip-Toes',
     ],
     description: [
+      'A thrilling and heartwarming coming-of-age story that follows strong-willed Moana as she sets sail across the Pacific to save her village and discover the truth about her heritage.',
+      'Moana and the legendary demigod Maui embark on an epic journey of self-discovery and camaraderie as both learn to harness the power that lies within.',
+      'With empowering messages of bravery and selflessness, Moana JR. is sure to bring out the hero within each of us.',
+      '',
+      'Moana JR. features all the beloved songs from the film, written by Tony®, GRAMMY, Emmy, and Pulitzer Prize-winning composer Lin-Manuel Miranda, including "How Far I\'ll Go", "Shiny", and "You\'re Welcome."'
     ],
   },
 ]
