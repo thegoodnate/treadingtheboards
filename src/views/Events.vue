@@ -89,8 +89,7 @@ const events = [
       '',
       'Contact us for more information on joining this amazing show and becoming part of the TTB family.',
     ],
-    upcoming: true,
-    url: 'https://www.ticketsource.co.uk/treading-the-boards/beauty-and-the-beast-jr/e-pqbzgq'
+    upcoming: false,
   },
   {
     title: 'The Bee Musical',
