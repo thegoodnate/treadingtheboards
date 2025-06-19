@@ -58,7 +58,7 @@ import CTA from '../components/CTA.vue'
 const events = [
   {
     title: 'Roald Dahl\'s Matilda The Musical JR.',
-    date: '14th July 2026',
+    date: '14th June 2026',
     venue: 'St. Cyres school',
     image: '/images/matilda.png',
     tags: [
