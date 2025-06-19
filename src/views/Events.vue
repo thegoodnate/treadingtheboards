@@ -57,6 +57,22 @@ import CTA from '../components/CTA.vue'
 
 const events = [
   {
+    title: 'Roald Dahl\'s Matilda The Musical JR.',
+    date: '14th July 2026',
+    venue: 'St. Cyres school',
+    image: '/images/matilda.png',
+    tags: [
+      'Titans',
+      'Troubadours'
+    ],
+    description: [
+      'Rebellion is nigh in Matilda JR., a gleefully witty ode to the the anarchy of childhood and the power of imagination!',
+      'This story of a girl who dreams of a better life and the children she inspires will have audiences rooting for the "revolting children" who are out to teach the grown-ups a lesson.',
+      'Packed with high-energy dance numbers and catchy songs, Matilda JR. is a joyous girl power romp. Children and adults alike will be thrilled and delighted by the story of the special little girl with an extraordinary imagination.',
+    ],
+    upcoming: true,
+  },
+  {
     title: 'The Wedding Singer',
     date: '11th - 12th July 2025',
     venue: 'The Paget Rooms',
