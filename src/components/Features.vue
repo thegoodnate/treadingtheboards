@@ -2,9 +2,9 @@
 <template>
   <div id="features" class="bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="my-24">
+      <!-- <div class="my-24">
         <Event/>
-      </div>
+      </div> -->
       <div class="text-center">
         <p class="mt-2 text-3xl leading-8 font-extrabold tracking-normal text-gray-900 sm:text-4xl font-serif">
           Acting, Singing, Dancing and more
