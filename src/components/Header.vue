@@ -5,7 +5,7 @@
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <router-link to="/">
             <span class="sr-only">Workflow</span>
-            <img class="h-8 w-18 sm:h-10" src="/images/logo.png" alt="" />
+            <img class="h-8 sm:h-10" src="/images/logo.png" alt="" />
           </router-link>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
