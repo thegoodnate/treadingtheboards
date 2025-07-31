@@ -87,8 +87,7 @@ const events = [
       'Based on the hit Adam Sandler movie, The Wedding Singer\'s sparkling new score does for the \'80s what Hairspray did for the \'60s.',
       'Just say yes to the most romantic musical in twenty years.',
     ],
-    upcoming: true,
-    url: 'https://www.ticketsource.co.uk/treading-the-boards/the-wedding-singer/e-kojbld'
+    upcoming: false,
   },
   {
     title: 'Beauty and the Beast Jr.',
