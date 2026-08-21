@@ -32,7 +32,7 @@
       </div>
     </div>
     <p class="text-gray-500 mt-8">
-      <b>*</b> Fees are collected per helf-term
+      <b>*</b> Monthly billing over 11 months, no fees in August.
     </p>
   </div>
   <Banner/>
@@ -51,8 +51,8 @@ const pricing = {
   tiers: [
     {
       title: 'Tip-Toe treaders',
-      price: 7,
-      frequency: '/session*',
+      price: 29,
+      frequency: 'per month*',
       description: [
         'Wednesday 4pm - 5pm',
         'Margaret Alexander Centre, Barry',
@@ -71,10 +71,10 @@ const pricing = {
     },
     {
       title: 'Troubadours',
-      price: 8,
-      frequency: '/session*',
+      price: 35,
+      frequency: 'per month*',
       description: [
-        'Tuesday 4pm - 5:30pm',
+        'Tuesday 4pm - 6pm',
         'St Francis Millennium Centre, Barry',
       ],
       features: [
@@ -91,10 +91,10 @@ const pricing = {
     },
     {
       title: 'Titans',
-      price: 8,
-      frequency: '/session*',
+      price: 35,
+      frequency: 'per month*',
       description: [
-        'Tuesday 4pm - 5:30pm',
+        'Tuesday 4pm - 6pm',
         'St Francis Millennium Centre, Barry',
       ],
       features: [
