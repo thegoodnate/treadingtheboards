@@ -57,20 +57,50 @@ import CTA from '../components/CTA.vue'
 
 const events = [
   {
-    title: 'Roald Dahl\'s Matilda The Musical JR.',
+    title: 'Newsies Jr.',
+    date: '13th June 2027',
+    venue: 'St. Cyres School',
+    image: '/images/newsies-jr.png',
+    tags: [
+      'Titans',
+      'Troubadours'
+    ],
+    description: [
+      'When powerful newspaper publishers raise prices at the newsboys\' expense, the charismatic Jack Kelly rallies newsies from across the city to strike against the unfair conditions. Together, the newsies learn that they are stronger united and create a movement to fight for what\'s right.',
+      'Including the now-classic songs "Carrying the Banner," "Seize the Day," and "Santa Fe," Newsies JR. is a timeless story full of spirit and heart.',
+    ],
+    upcoming: true,
+  },
+  {
+    title: 'Made in Dagenham',
+    date: '10 - 11th July 2026',
+    venue: 'The Paget Rooms',
+    image: '/images/made-in-dagenham.png',
+    tags: [
+      'Adults'
+    ],
+    description: [
+      'Made in Dagenham is a musical based on the 2010 film of the same name, telling the story of the Ford sewing machinists strike of 1968.',
+      'It follows the journey of female workers who fought for equal pay and the impact their actions had on the labour movement.',
+      'Funny, touching and timeless, Made in Dagenham shows how ordinary people can do extraordinary things when they stand together.',
+    ],
+    upcoming: false,
+  },
+  {
+    title: 'Roald Dahl\'s Matilda The Musical Jr.',
     date: '14th June 2026',
-    venue: 'St. Cyres school',
+    venue: 'St. Cyres School',
     image: '/images/matilda.png',
     tags: [
       'Titans',
       'Troubadours'
     ],
     description: [
-      'Rebellion is nigh in Matilda JR., a gleefully witty ode to the the anarchy of childhood and the power of imagination!',
+      'Rebellion is nigh in Matilda Jr., a gleefully witty ode to the anarchy of childhood and the power of imagination!',
       'This story of a girl who dreams of a better life and the children she inspires will have audiences rooting for the "revolting children" who are out to teach the grown-ups a lesson.',
       'Packed with high-energy dance numbers and catchy songs, Matilda JR. is a joyous girl power romp. Children and adults alike will be thrilled and delighted by the story of the special little girl with an extraordinary imagination.',
     ],
-    upcoming: true,
+    upcoming: false,
   },
   {
     title: 'The Wedding Singer',
@@ -81,9 +111,9 @@ const events = [
       'Adults'
     ],
     description: [
-      'After the roaring success of "Nunsense", our adult theatre companies debut, we\'re proud to anounce our second production!',
+      'After the roaring success of "Nunsense", our adult theatre companies debut, we\'re proud to announce our second production!',
       '',
-      'The Wedding Singer takes us back to a time when hair was big, greed was good, collars were up and a wedding singer might just be the coolest guy in the room.',
+      'The Wedding Singer takes us back to a time when hair was big, greed was good, collars were up, and a wedding singer might just be the coolest guy in the room.',
       'Based on the hit Adam Sandler movie, The Wedding Singer\'s sparkling new score does for the \'80s what Hairspray did for the \'60s.',
       'Just say yes to the most romantic musical in twenty years.',
     ],
